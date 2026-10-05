@@ -2,7 +2,7 @@
 
 An async Rust client for the [EcoCash](https://developers.ecocash.co.zw) Open API (Zimbabwe mobile money): push a payment prompt to a customer's phone, look the transaction up, poll until it settles, and refund or reverse it.
 
-It started as a port of the TypeScript [`ecocash`](https://github.com/phoscoder/ecocash) SDK and was then rebuilt against the newer v1 "Instant Payment" API (HTTP Basic Auth).
+It started as a port of the TypeScript [`ecocash`](https://github.com/takumade/ecocash) SDK by Takunda Madechangu and was then rebuilt against the newer v1 "Instant Payment" API (HTTP Basic Auth).
 
 > [!WARNING]
 > **This crate is not complete and has not been verified against the live sandbox.**
